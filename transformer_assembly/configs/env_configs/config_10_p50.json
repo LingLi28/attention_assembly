@@ -1,0 +1,93 @@
+{
+    "discount_factor": 1,
+    "back_order_cost": 50,
+    "MinOrder": 0,
+    "DemandProbs": [0.02, 0.05, 0.1, 0.14, 0.20, 0.19, 0.1, 0.06, 0.05, 0.03, 0.02, 0.02, 0.01, 0.01],
+    "Demand_offset": 4,
+    "num_of_nodes": 10,
+    "MaxOrderSize": 11,
+    "MaxInvNodes": [2000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000],
+    "MaxBacklog": 30,
+    "lostSalesPenalty": 5000,
+
+    "MinSafetyStock": [960, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+    
+    "batch_size": 32,
+    "assembly_tree": {
+        "id": 0,
+        "capacity": 11,
+        "inventory": 0,
+        "holding_cost": 8.0,
+        "lead_time": 2,
+        "children": [
+            {
+                "id": 1,
+                "capacity": 11,
+                "inventory": 0,
+                "holding_cost": 1.25,
+                "lead_time": 1,
+                "children": [
+                    {
+                        "id": 6,
+                        "capacity": 10,
+                        "inventory": 0,
+                        "holding_cost": 0.2,
+                        "lead_time": 4
+                    },
+                    {
+                        "id": 8,
+                        "capacity": 11,
+                        "inventory": 0,
+                        "holding_cost": 0.4,
+                        "lead_time": 5
+                    },
+                    {
+                        "id": 4,
+                        "capacity": 10,
+                        "inventory": 0,
+                        "holding_cost": 0.1,
+                        "lead_time": 2
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "capacity": 10,
+                "inventory": 0,
+                "holding_cost": 1.5,
+                "lead_time": 3,
+                "children": [
+                    {
+                        "id": 5,
+                        "capacity": 10,
+                        "inventory": 0,
+                        "holding_cost": 0.15,
+                        "lead_time": 1
+                    },
+                    {
+                        "id": 7,
+                        "capacity": 10,
+                        "inventory": 0,
+                        "holding_cost": 0.25,
+                        "lead_time": 2
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "capacity": 11,
+                "inventory": 0,
+                "holding_cost": 0.2,
+                "lead_time": 2
+            },
+            {
+                "id": 9,
+                "capacity": 10,
+                "inventory": 0,
+                "holding_cost": 1.05,
+                "lead_time": 6
+            }
+        ]
+    }
+  }
+  

@@ -1,0 +1,29 @@
+{
+    "discount_factor": 1,
+    "back_order_cost": 50,
+    "MinOrder": 0,
+    "DemandProbs": [ 0.02, 0.05, 0.1, 0.14, 0.20, 0.19, 0.1, 0.06, 0.05, 0.03, 0.02, 0.02, 0.01, 0.01 ],
+    "Demand_offset": 4,
+    "num_of_nodes": 2,
+    "MaxOrderSize": 11,
+    "MaxInvNodes": [ 2000, 1000],
+    "MaxBacklog": 30,
+    "lostSalesPenalty":  5000,
+
+    "MinSafetyStock": [960, 0],
+
+    "assembly_tree": {
+      "id": 0,
+      "capacity": 10,
+      "holding_cost": 8.0,
+      "lead_time": 1,
+      "children": [
+        {
+          "id": 1,
+          "capacity": 10,
+          "holding_cost": 1.0,
+          "lead_time": 2
+        }]
+        }
+          
+}

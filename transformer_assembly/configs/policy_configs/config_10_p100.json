@@ -1,0 +1,4 @@
+{
+    "base_stock_levels": [35, 47, 58, 65, 65, 78, 86, 86, 93, 93],
+    "base_stock_with_shortfall_levels": [36, 49, 59, 69, 69, 82, 90, 90, 94, 96]
+}

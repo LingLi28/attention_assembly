@@ -1,0 +1,19 @@
+# run: conda env create --file environment.yml
+name: attention_assembly_env
+channels:
+  - defaults
+  - pytorch
+dependencies:
+  - python==3.8
+  - anaconda
+  - tqdm
+  - numpy
+  - scipy
+  - matplotlib
+  - pytorch
+  - torchvision
+  - pip
+  - pip:
+      - gym
+      - tensorboard_logger
+
